@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ap.efficient_farming.RequestNow">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:focusable="true"
+            android:id="@+id/btn_requestnow_navigateup"
+            android:text="navigate up"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:focusable="true"
+            android:text="Select the Time Duration:"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:focusable="true"
+            android:id="@+id/spinner_sp_time">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:focusable="true"
+            android:text="Select the Payment Mode:"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:focusable="true"
+            android:id="@+id/spinner_sp_payment">
+        </Spinner>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:layout_margin="10dp"
+            android:padding="5dp"
+            android:focusable="true"
+            android:id="@+id/btn_requestnow_confirm"
+            android:text="View available volunteers"/>
+
+
+    </LinearLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

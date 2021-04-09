@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_time_duration">
+        <item>time duration:</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>more than 4 hours</item>
+    </array>
+    <array name="array_payment">
+        <item>payment options:</item>
+        <item>Cash</item>
+        <item>Debit/Credit card</item>
+        <item>UPI </item>
+        <item>wallet</item>
+    </array>
+    <array name="array_volunteer_names">
+        <item>Amit Sharma</item>
+        <item>Puneet Kumar</item>
+        <item>Surendra paal</item>
+        <item>Karunakar</item>
+    </array>
+
+    <array name="array_volunteer_phones">
+        <item>call call</item>
+        <item>call call</item>
+        <item>call call</item>
+        <item>call call</item>
+    </array>
+
+    <array name="movies_name">
+        <item>Kuchh Kuchh Hota Hai</item>
+        <item>Dil to pagal hai</item>
+    </array>
+
+    <array name="movies_link">
+        <item>https://drive.google.com/file/d/19Yumb9yfaDdnnqqs106b-bMiEzH9t5xl/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/1C7MVJtPpbaVM36DyI8bfnscEublHxVnn/view?usp=sharing</item>
+    </array>
+
+
+
+</resources>

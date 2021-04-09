@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ap.travelassist">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TRAVEL ASSIST"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".PlanTripActivity"></activity>
+        <activity android:name=".ConfirmationPageActivity" />
+        <activity android:name=".ShowVolunteerActivity" />
+        <activity android:name=".SendFeedbackActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".ProfileView" />
+        <activity android:name=".VolunteerActivity" />
+        <activity android:name=".RequestNow" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="AgroSearch"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/transparent_white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formLogo2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:focusable="true"
+        android:text="TRAVEL ASSIST"
+            android:textStyle="bold"
+            android:contextClickable="true"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/userNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_white"
+            android:drawableStart="@mipmap/ic_user_icon"
+            android:drawablePadding="5dp"
+            android:hint="Phone"
+            android:inputType="number"
+            android:focusable="true"
+            android:paddingStart="10dp"
+            android:textSize="14sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_white"
+            android:drawableStart="@mipmap/ic_pass_icon"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:focusable="true"
+            android:paddingStart="10dp"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/login_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:focusable="true"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_login_back"
+            android:focusable="true"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Back"/>
+
+        <!--<Button
+            android:id="@+id/BForgotPassword"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="50dp"
+            android:background="#010101"
+            android:padding="20dp"
+            android:text="FORGOT PASSWORD"
+            android:textColor="#ffffff"
+            android:textStyle="normal" />-->
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

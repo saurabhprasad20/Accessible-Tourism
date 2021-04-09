@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ap.efficient_farming.AboutActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:focusable="true"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Navigate Up"
+            android:id="@+id/btn_about_navigateUp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+            android:text="ABOUT"
+                android:textStyle="bold"
+                android:focusable="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:focusable="true"
+        android:text="TRAVEL ASSIST aims to make the travel completely accessible and convenient for visually challenged travellers. \n Through this app, users can register and request for volunteers on their day to day journey or during planned trips."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:focusable="true"
+            android:text="This app has been developped under ISTEM Confluence Hackathon 2021. \n
+Team Name: Globetrotters. \n
+Team Members: Saurabh Prasad, Rohit Sharma, Suravanan."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:focusable="true"
+
+                android:text="Note: This app is still on it's developping phase. \n We will keep on improving in order to make it a helpful utility. "/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
